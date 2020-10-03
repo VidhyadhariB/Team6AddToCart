@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" ignored="0" total="25" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="581816" started-at="2020-09-24T12:58:34 EDT" finished-at="2020-09-24T13:08:16 EDT">
+    <groups>
+    </groups>
+    <test name="Dollar Days Test" duration-ms="581816" started-at="2020-09-24T12:58:34 EDT" finished-at="2020-09-24T13:08:16 EDT">
+      <class name="com.dollardays.testcases.AddToCartPPETestcase">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="setUpBrowser" is-config="true" duration-ms="16290" started-at="2020-09-24T12:58:34 EDT" finished-at="2020-09-24T12:58:51 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_01_validate_clear_cart_hyperlink_in_the_shopping_cart_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="TC_01_validate_clear_cart_hyperlink_in_the_shopping_cart_page" duration-ms="10945" started-at="2020-09-24T12:58:51 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T12:59:02 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_validate_clear_cart_hyperlink_in_the_shopping_cart_page -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="quit" is-config="true" duration-ms="5203" started-at="2020-09-24T12:59:02 EDT" finished-at="2020-09-24T12:59:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="setUpBrowser" is-config="true" duration-ms="14328" started-at="2020-09-24T12:59:07 EDT" finished-at="2020-09-24T12:59:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_02_validate_the_user_is_able_to_add_one_item_from_ppe_category_throught_product_page_and_verify_cart_icon(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="TC_02_validate_the_user_is_able_to_add_one_item_from_ppe_category_throught_product_page_and_verify_cart_icon" duration-ms="22113" started-at="2020-09-24T12:59:21 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T12:59:43 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddToCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_validate_the_user_is_able_to_add_one_item_from_ppe_category_throught_product_page_and_verify_cart_icon -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="quit" is-config="true" duration-ms="4996" started-at="2020-09-24T12:59:43 EDT" finished-at="2020-09-24T12:59:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="setUpBrowser" is-config="true" duration-ms="14464" started-at="2020-09-24T12:59:48 EDT" finished-at="2020-09-24T13:00:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_03_Validate_the_user_is_able_to_add_one_item_to_the_cart_from_PPE_and_Mask_category_and_verify_cart_icon(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="TC_03_Validate_the_user_is_able_to_add_one_item_to_the_cart_from_PPE_and_Mask_category_and_verify_cart_icon" duration-ms="20225" started-at="2020-09-24T13:00:03 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:00:23 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_Validate_the_user_is_able_to_add_one_item_to_the_cart_from_PPE_and_Mask_category_and_verify_cart_icon -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="quit" is-config="true" duration-ms="4827" started-at="2020-09-24T13:00:23 EDT" finished-at="2020-09-24T13:00:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="setUpBrowser" is-config="true" duration-ms="15171" started-at="2020-09-24T13:00:28 EDT" finished-at="2020-09-24T13:00:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="FAIL" signature="TC_04_validate_the_user_is_able_to_add_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="TC_04_validate_the_user_is_able_to_add_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart" duration-ms="15540" started-at="2020-09-24T13:00:43 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:00:59 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"ctl00_cphContent_btnClearCart"}
+  (Session info: chrome=85.0.4183.121)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54538}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir7596_1800887352}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.121, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 6d3ffd434a09cec21481eca0195a5c55
+*** Element info: {Using=id, value=ctl00_cphContent_btnClearCart}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"ctl00_cphContent_btnClearCart"}
+  (Session info: chrome=85.0.4183.121)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54538}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir7596_1800887352}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.121, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 6d3ffd434a09cec21481eca0195a5c55
+*** Element info: {Using=id, value=ctl00_cphContent_btnClearCart}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+at org.openqa.selenium.By$ById.findElement(By.java:218)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at com.dollardays.pages.AddToCartPage.clearcart(AddToCartPage.java:452)
+at com.dollardays.testcases.AddToCartPPETestcase.TC_04_validate_the_user_is_able_to_add_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart(AddToCartPPETestcase.java:149)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_validate_the_user_is_able_to_add_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="quit" is-config="true" duration-ms="5061" started-at="2020-09-24T13:00:59 EDT" finished-at="2020-09-24T13:01:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="setUpBrowser" is-config="true" duration-ms="14192" started-at="2020-09-24T13:01:04 EDT" finished-at="2020-09-24T13:01:18 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_05_Validate_update_cart_hyper_link_in_the_shopping_cart_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="TC_05_Validate_update_cart_hyper_link_in_the_shopping_cart_page" duration-ms="40348" started-at="2020-09-24T13:01:18 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:01:58 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_Validate_update_cart_hyper_link_in_the_shopping_cart_page -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="quit" is-config="true" duration-ms="5013" started-at="2020-09-24T13:01:58 EDT" finished-at="2020-09-24T13:02:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="setUpBrowser" is-config="true" duration-ms="18159" started-at="2020-09-24T13:02:03 EDT" finished-at="2020-09-24T13:02:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_06_Validate_the_case_quantity_text_box_with_valid_data_in_the_shopping_cart_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="TC_06_Validate_the_case_quantity_text_box_with_valid_data_in_the_shopping_cart_page" duration-ms="23704" started-at="2020-09-24T13:02:22 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:02:45 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_Validate_the_case_quantity_text_box_with_valid_data_in_the_shopping_cart_page -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="quit" is-config="true" duration-ms="5019" started-at="2020-09-24T13:02:45 EDT" finished-at="2020-09-24T13:02:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="setUpBrowser" is-config="true" duration-ms="13820" started-at="2020-09-24T13:02:50 EDT" finished-at="2020-09-24T13:03:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_07_Validate_the_case_quantity_text_box_with_zero_value_and_verify_the_shopping_cart_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="TC_07_Validate_the_case_quantity_text_box_with_zero_value_and_verify_the_shopping_cart_page" duration-ms="22536" started-at="2020-09-24T13:03:04 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:03:27 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_07_Validate_the_case_quantity_text_box_with_zero_value_and_verify_the_shopping_cart_page -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="quit" is-config="true" duration-ms="5045" started-at="2020-09-24T13:03:27 EDT" finished-at="2020-09-24T13:03:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="setUpBrowser" is-config="true" duration-ms="14818" started-at="2020-09-24T13:03:32 EDT" finished-at="2020-09-24T13:03:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_08_Validate_the_case_quantity_text_box_with_invalid_data_in_the_shopping_cart_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="TC_08_Validate_the_case_quantity_text_box_with_invalid_data_in_the_shopping_cart_page" duration-ms="20464" started-at="2020-09-24T13:03:47 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:04:07 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_08_Validate_the_case_quantity_text_box_with_invalid_data_in_the_shopping_cart_page -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="quit" is-config="true" duration-ms="5065" started-at="2020-09-24T13:04:07 EDT" finished-at="2020-09-24T13:04:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="setUpBrowser" is-config="true" duration-ms="20309" started-at="2020-09-24T13:04:12 EDT" finished-at="2020-09-24T13:04:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_09_Validate_the_case_quantity_text_box_with_boundary_value_in_the_shopping_cart_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="TC_09_Validate_the_case_quantity_text_box_with_boundary_value_in_the_shopping_cart_page" duration-ms="18633" started-at="2020-09-24T13:04:32 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:04:51 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_09_Validate_the_case_quantity_text_box_with_boundary_value_in_the_shopping_cart_page -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="quit" is-config="true" duration-ms="892" started-at="2020-09-24T13:04:51 EDT" finished-at="2020-09-24T13:04:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="setUpBrowser" is-config="true" duration-ms="15598" started-at="2020-09-24T13:04:52 EDT" finished-at="2020-09-24T13:05:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_10_Validate_the_cart_when_the_user_signoff_and_signin_with_valid_credentials(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="TC_10_Validate_the_cart_when_the_user_signoff_and_signin_with_valid_credentials" duration-ms="20031" started-at="2020-09-24T13:05:08 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:05:28 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_10_Validate_the_cart_when_the_user_signoff_and_signin_with_valid_credentials -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="quit" is-config="true" duration-ms="5001" started-at="2020-09-24T13:05:28 EDT" finished-at="2020-09-24T13:05:33 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="setUpBrowser" is-config="true" duration-ms="13925" started-at="2020-09-24T13:05:33 EDT" finished-at="2020-09-24T13:05:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_11_validate_no_of_cases_textbox_with_valid_data(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="TC_11_validate_no_of_cases_textbox_with_valid_data" duration-ms="23169" started-at="2020-09-24T13:05:46 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:06:10 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_11_validate_no_of_cases_textbox_with_valid_data -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="quit" is-config="true" duration-ms="4756" started-at="2020-09-24T13:06:10 EDT" finished-at="2020-09-24T13:06:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="setUpBrowser" is-config="true" duration-ms="14514" started-at="2020-09-24T13:06:14 EDT" finished-at="2020-09-24T13:06:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_12_Validate_the_number_of_case_text_box_in_the_product_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="TC_12_Validate_the_number_of_case_text_box_in_the_product_page" duration-ms="11233" started-at="2020-09-24T13:06:29 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:06:40 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_12_Validate_the_number_of_case_text_box_in_the_product_page -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="quit" is-config="true" duration-ms="5009" started-at="2020-09-24T13:06:40 EDT" finished-at="2020-09-24T13:06:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="setUpBrowser" is-config="true" duration-ms="13397" started-at="2020-09-24T13:06:45 EDT" finished-at="2020-09-24T13:06:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_13_validate_no_of_cases_textbox_with_zero(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="TC_13_validate_no_of_cases_textbox_with_zero" duration-ms="27713" started-at="2020-09-24T13:06:59 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:07:26 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_13_validate_no_of_cases_textbox_with_zero -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="quit" is-config="true" duration-ms="5027" started-at="2020-09-24T13:07:26 EDT" finished-at="2020-09-24T13:07:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="setUpBrowser" is-config="true" duration-ms="14228" started-at="2020-09-24T13:07:31 EDT" finished-at="2020-09-24T13:07:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_14_validate_no_of_cases_textbox_with_character(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="TC_14_validate_no_of_cases_textbox_with_character" duration-ms="24903" started-at="2020-09-24T13:07:46 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:08:10 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_14_validate_no_of_cases_textbox_with_character -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@6a396c1e]" name="quit" is-config="true" duration-ms="5057" started-at="2020-09-24T13:08:10 EDT" finished-at="2020-09-24T13:08:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.dollardays.testcases.AddToCartPPETestcase -->
+      <class name="com.dollardays.testcases.AddToCartTestcases">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="setUpBrowser" is-config="true" duration-ms="16067" started-at="2020-09-24T12:58:34 EDT" finished-at="2020-09-24T12:58:51 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_15_ValidateAddToCart_BuyNow_smallercasepacks(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="TC_15_ValidateAddToCart_BuyNow_smallercasepacks" duration-ms="16908" started-at="2020-09-24T12:58:51 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T12:59:07 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_15_ValidateAddToCart_BuyNow_smallercasepacks -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="quit" is-config="true" duration-ms="5034" started-at="2020-09-24T12:59:07 EDT" finished-at="2020-09-24T12:59:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="setUpBrowser" is-config="true" duration-ms="14769" started-at="2020-09-24T12:59:12 EDT" finished-at="2020-09-24T12:59:27 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_16_ValidateAddToCart_BuyNow_3PlyFaceMask(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="TC_16_ValidateAddToCart_BuyNow_3PlyFaceMask" duration-ms="14802" started-at="2020-09-24T12:59:27 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T12:59:42 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_16_ValidateAddToCart_BuyNow_3PlyFaceMask -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="quit" is-config="true" duration-ms="5097" started-at="2020-09-24T12:59:42 EDT" finished-at="2020-09-24T12:59:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="setUpBrowser" is-config="true" duration-ms="13927" started-at="2020-09-24T12:59:47 EDT" finished-at="2020-09-24T13:00:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_17_ValidateAddToCart_BuyNow_PremiumAlcoholWipes(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="TC_17_ValidateAddToCart_BuyNow_PremiumAlcoholWipes" duration-ms="13234" started-at="2020-09-24T13:00:01 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:00:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_17_ValidateAddToCart_BuyNow_PremiumAlcoholWipes -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="quit" is-config="true" duration-ms="5104" started-at="2020-09-24T13:00:14 EDT" finished-at="2020-09-24T13:00:19 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="setUpBrowser" is-config="true" duration-ms="14212" started-at="2020-09-24T13:00:19 EDT" finished-at="2020-09-24T13:00:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="FAIL" signature="TC_18_ValidateAddToCartFromSearchbarWithnoData(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="TC_18_ValidateAddToCartFromSearchbarWithnoData" duration-ms="41901" started-at="2020-09-24T13:00:34 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:01:16 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id="noreturnmodal"]/div/div/div[2]/button
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54459}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir15332_393366746}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.121, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 9a9f87537cf6f456194053414e603fd4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id="noreturnmodal"]/div/div/div[2]/button
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54459}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir15332_393366746}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.121, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 9a9f87537cf6f456194053414e603fd4
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+at com.dollardays.pages.AddToCartPage.HandleAddtocartPopup(AddToCartPage.java:477)
+at com.dollardays.testcases.AddToCartTestcases.TC_18_ValidateAddToCartFromSearchbarWithnoData(AddToCartTestcases.java:181)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_18_ValidateAddToCartFromSearchbarWithnoData -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="quit" is-config="true" duration-ms="5104" started-at="2020-09-24T13:01:16 EDT" finished-at="2020-09-24T13:01:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="setUpBrowser" is-config="true" duration-ms="14341" started-at="2020-09-24T13:01:21 EDT" finished-at="2020-09-24T13:01:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_19_ValidateAddToCartFromSearchbarWithValidData(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="TC_19_ValidateAddToCartFromSearchbarWithValidData" duration-ms="22667" started-at="2020-09-24T13:01:35 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:01:58 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_19_ValidateAddToCartFromSearchbarWithValidData -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="quit" is-config="true" duration-ms="5067" started-at="2020-09-24T13:01:58 EDT" finished-at="2020-09-24T13:02:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="setUpBrowser" is-config="true" duration-ms="17337" started-at="2020-09-24T13:02:03 EDT" finished-at="2020-09-24T13:02:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="FAIL" signature="TC_20_Validate_addtocart_by_clicking_on_buy_nowbutton_from_adv_banner_without_login(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="TC_20_Validate_addtocart_by_clicking_on_buy_nowbutton_from_adv_banner_without_login" duration-ms="16853" started-at="2020-09-24T13:02:20 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:02:37 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h6[contains(text(),'SKU # 2350143')]"}
+  (Session info: chrome=85.0.4183.121)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55056}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir7004_1754300505}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.121, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 9fe5c126fb50287f93dd2bb3773b9f7a
+*** Element info: {Using=xpath, value=//h6[contains(text(),'SKU # 2350143')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[contains(text(),'SKU # 2350143')]"}
+  (Session info: chrome=85.0.4183.121)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55056}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir7004_1754300505}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.121, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 9fe5c126fb50287f93dd2bb3773b9f7a
+*** Element info: {Using=xpath, value=//h6[contains(text(),'SKU # 2350143')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.getText(Unknown Source)
+at com.dollardays.testcases.AddToCartTestcases.TC_20_Validate_addtocart_by_clicking_on_buy_nowbutton_from_adv_banner_without_login(AddToCartTestcases.java:279)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_20_Validate_addtocart_by_clicking_on_buy_nowbutton_from_adv_banner_without_login -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="quit" is-config="true" duration-ms="5107" started-at="2020-09-24T13:02:37 EDT" finished-at="2020-09-24T13:02:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="setUpBrowser" is-config="true" duration-ms="13452" started-at="2020-09-24T13:02:42 EDT" finished-at="2020-09-24T13:02:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="FAIL" signature="TC_21_addtocartvalidate(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="TC_21_addtocartvalidate" duration-ms="6340" started-at="2020-09-24T13:02:56 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:03:02 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Back to School')]"}
+  (Session info: chrome=85.0.4183.121)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55350}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir11404_1243221763}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.121, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 7461d4f928a7652bb54f99626c8f68a4
+*** Element info: {Using=xpath, value=//a[contains(text(),'Back to School')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Back to School')]"}
+  (Session info: chrome=85.0.4183.121)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55350}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir11404_1243221763}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.121, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 7461d4f928a7652bb54f99626c8f68a4
+*** Element info: {Using=xpath, value=//a[contains(text(),'Back to School')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at com.dollardays.testcases.AddToCartTestcases.TC_21_addtocartvalidate(AddToCartTestcases.java:313)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_21_addtocartvalidate -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="quit" is-config="true" duration-ms="5161" started-at="2020-09-24T13:03:02 EDT" finished-at="2020-09-24T13:03:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="setUpBrowser" is-config="true" duration-ms="13896" started-at="2020-09-24T13:03:07 EDT" finished-at="2020-09-24T13:03:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="FAIL" signature="TC_22_addtocartvalidate(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="TC_22_addtocartvalidate" duration-ms="6494" started-at="2020-09-24T13:03:21 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:03:28 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Back to School')]"}
+  (Session info: chrome=85.0.4183.121)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55566}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir14456_2086983715}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.121, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 0562070766440d3c308f40046a152440
+*** Element info: {Using=xpath, value=//a[contains(text(),'Back to School')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Back to School')]"}
+  (Session info: chrome=85.0.4183.121)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55566}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir14456_2086983715}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.121, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 0562070766440d3c308f40046a152440
+*** Element info: {Using=xpath, value=//a[contains(text(),'Back to School')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at com.dollardays.testcases.AddToCartTestcases.TC_22_addtocartvalidate(AddToCartTestcases.java:339)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_22_addtocartvalidate -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="quit" is-config="true" duration-ms="5019" started-at="2020-09-24T13:03:28 EDT" finished-at="2020-09-24T13:03:33 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="setUpBrowser" is-config="true" duration-ms="15302" started-at="2020-09-24T13:03:33 EDT" finished-at="2020-09-24T13:03:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="FAIL" signature="TC_23_addtocartvalidate(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="TC_23_addtocartvalidate" duration-ms="6768" started-at="2020-09-24T13:03:48 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:03:55 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Back to School')]"}
+  (Session info: chrome=85.0.4183.121)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55737}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir13388_1468848711}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.121, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 5f97d22113aa4bffb3b4f0859c098793
+*** Element info: {Using=xpath, value=//a[contains(text(),'Back to School')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Back to School')]"}
+  (Session info: chrome=85.0.4183.121)
+  (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55737}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir13388_1468848711}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.121, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 5f97d22113aa4bffb3b4f0859c098793
+*** Element info: {Using=xpath, value=//a[contains(text(),'Back to School')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at com.dollardays.testcases.AddToCartTestcases.TC_23_addtocartvalidate(AddToCartTestcases.java:382)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_23_addtocartvalidate -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="quit" is-config="true" duration-ms="5363" started-at="2020-09-24T13:03:55 EDT" finished-at="2020-09-24T13:04:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="setUpBrowser" is-config="true" duration-ms="13997" started-at="2020-09-24T13:04:00 EDT" finished-at="2020-09-24T13:04:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_24_addtocartvalidate_shopallbtn_clickonimage(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="TC_24_addtocartvalidate_shopallbtn_clickonimage" duration-ms="24947" started-at="2020-09-24T13:04:14 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:04:39 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_24_addtocartvalidate_shopallbtn_clickonimage -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="quit" is-config="true" duration-ms="5126" started-at="2020-09-24T13:04:39 EDT" finished-at="2020-09-24T13:04:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="setUpBrowser" is-config="true" duration-ms="14530" started-at="2020-09-24T13:04:44 EDT" finished-at="2020-09-24T13:04:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC_25_addtocartvalidate_clickonimage(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="TC_25_addtocartvalidate_clickonimage" duration-ms="19194" started-at="2020-09-24T13:04:59 EDT" data-provider="dd-dataprovider" finished-at="2020-09-24T13:05:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_25_addtocartvalidate_clickonimage -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartTestcases@6c3f5566]" name="quit" is-config="true" duration-ms="5062" started-at="2020-09-24T13:05:18 EDT" finished-at="2020-09-24T13:05:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.dollardays.testcases.AddToCartTestcases -->
+    </test> <!-- Dollar Days Test -->
+  </suite> <!-- Suite -->
+</testng-results>

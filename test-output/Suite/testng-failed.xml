@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="com.dollardays.listners.TestListener"/>
+  </listeners>
+  <test thread-count="3" name="Dollar Days Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.dollardays.testcases.AddToCartPPETestcase">
+        <methods>
+          <include name="TC_04_validate_the_user_is_able_to_add_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- com.dollardays.testcases.AddToCartPPETestcase -->
+      <class name="com.dollardays.testcases.AddToCartTestcases">
+        <methods>
+          <include name="TC_21_addtocartvalidate" invocation-numbers="0"/>
+          <include name="TC_18_ValidateAddToCartFromSearchbarWithnoData" invocation-numbers="0"/>
+          <include name="TC_22_addtocartvalidate" invocation-numbers="0"/>
+          <include name="TC_20_Validate_addtocart_by_clicking_on_buy_nowbutton_from_adv_banner_without_login" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="TC_23_addtocartvalidate" invocation-numbers="0"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- com.dollardays.testcases.AddToCartTestcases -->
+    </classes>
+  </test> <!-- Dollar Days Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
