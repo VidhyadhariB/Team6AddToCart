@@ -60,7 +60,7 @@ public class BaseTest extends MT {
 				driver.manage().window().maximize();
 				break;
 
-/*case "chromeDriver":
+case "chromeDriver":
 				
 				System.setProperty("webdriver.chrome.driver",
 				          System.getProperty("user.dir") + "//servers//chromedriver.exe");
@@ -74,8 +74,8 @@ public class BaseTest extends MT {
 				driver.manage().window().maximize();
 				
 				break;
-				*/
-		case "chromeDriver":
+				
+	/*	case "chromeDriver":
 				ChromeOptions options = new ChromeOptions();
 
 //				options.addArguments("--silent");
@@ -96,7 +96,7 @@ public class BaseTest extends MT {
 				driver = new ChromeDriver(service, options);
 				driver.manage().window().maximize();
 				break;
-
+*/
 
 
 
