@@ -60,7 +60,22 @@ public class BaseTest extends MT {
 				driver.manage().window().maximize();
 				break;
 
-			case "chromeDriver":
+/*case "chromeDriver":
+				
+				System.setProperty("webdriver.chrome.driver",
+				          System.getProperty("user.dir") + "//servers//chromedriver.exe");
+				//We arae using options class for initiating the chrome and adding args to handle popups and passing the options class in the driver
+				ChromeOptions options  = new ChromeOptions();
+				  options.addArguments("enable-popup-blocking");
+				
+				 
+				 
+				  driver = new ChromeDriver(options);
+				driver.manage().window().maximize();
+				
+				break;
+				*/
+		case "chromeDriver":
 				ChromeOptions options = new ChromeOptions();
 
 //				options.addArguments("--silent");
@@ -81,6 +96,10 @@ public class BaseTest extends MT {
 				driver = new ChromeDriver(service, options);
 				driver.manage().window().maximize();
 				break;
+
+
+
+
 
 			case "IE":
 				// IEDriver.ieDriver();

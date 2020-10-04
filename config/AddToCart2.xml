@@ -20,7 +20,7 @@
 <classes>
 
 <class name="com.dollardays.testcases.AddToCartPPETestcase"/>
-<class name="com.dollardays.testcases.AddToCartTestcases"/>
+
 
 </classes>
 

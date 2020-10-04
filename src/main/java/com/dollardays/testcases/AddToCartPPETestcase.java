@@ -26,7 +26,7 @@ public class AddToCartPPETestcase extends BaseTest {
 
 	@DDDataProvider(datafile = "testdata/Team6_AddToCart_data.xlsx", sheetName = "AddTOCartPPE",  testcaseID = "TC1", runmode = "Yes")
 	@Test(dataProvider = "dd-dataprovider", dataProviderClass = TestUtil.class)
-	public void TC_01_validate_clear_items_from_the_cart_from_shopping_cart_page (Hashtable<String, String> datatable) throws InterruptedException, UnsupportedEncodingException, GeneralSecurityException{
+	public void TC_05_validate_clear_items_from_the_cart_from_shopping_cart_page (Hashtable<String, String> datatable) throws InterruptedException, UnsupportedEncodingException, GeneralSecurityException{
 
 		LoginPage loginPage = new LoginPage(driver);
 		ExtentTestManager.getTest().log(Status.PASS, "Step : Login with Valid credentials");
@@ -197,7 +197,7 @@ public class AddToCartPPETestcase extends BaseTest {
 	//Validate update cart button in shopping cart
 	@DDDataProvider(datafile = "testdata/Team6_AddToCart_data.xlsx", sheetName = "AddTOCartPPE",  testcaseID = "TC1", runmode = "Yes")
 	@Test(dataProvider = "dd-dataprovider", dataProviderClass = TestUtil.class)
-	public void TC_05_validate_updatecart_in_shopping_cart_page (Hashtable<String, String> datatable) throws InterruptedException, UnsupportedEncodingException, GeneralSecurityException{
+	public void TC_01_validate_updatecart_in_shopping_cart_page (Hashtable<String, String> datatable) throws InterruptedException, UnsupportedEncodingException, GeneralSecurityException{
 
 		LoginPage loginPage = new LoginPage(driver);
 		ExtentTestManager.getTest().log(Status.PASS, "Step : Login with Valid credentials");
@@ -259,7 +259,9 @@ public class AddToCartPPETestcase extends BaseTest {
 			i++;
 			//System.out.println("the value given in the text boxes " +Integer.parseInt(qty.getAttribute("value")));
 		}
-		driver.findElement(By.xpath("//input[@id='ctl00_cphContent_btnUpdateCart']")).click();
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='ctl00_cphContent_btnUpdateCart']")));
+	addtocart.getupdatecartbtn().click();
 
 
 		qtytxtbox.clear();
@@ -319,7 +321,10 @@ public class AddToCartPPETestcase extends BaseTest {
 		String a = value.getAttribute("value").substring(1);
 		//System.out.println("The quantity given in the Qty txt box : " +a);
 		ExtentTestManager.getTest().log(Status.PASS, "Step : Click on update button ");
-		driver.findElement(By.xpath("//*[@class=' btn btn-update']")).click();
+		
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='ctl00_cphContent_btnUpdateCart']")));
+	addtocart.getupdatecartbtn().click();
+
 
 		WebElement value2 = addtocart.getcartqtytxtbox();
 		String b = value2.getAttribute("value");
@@ -384,7 +389,10 @@ public class AddToCartPPETestcase extends BaseTest {
 		ExtentTestManager.getTest().log(Status.PASS, "Step : Enter 0 in the Quantity text box");
 		addtocart.getcartqtytxtbox().sendKeys("0");
 		ExtentTestManager.getTest().log(Status.PASS, "Step : Click on update button ");
-		addtocart.getupdatebtn().click();
+		
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='ctl00_cphContent_btnUpdateCart']")));
+	addtocart.getupdatecartbtn().click();
+
 		if((addtocart.getemptyshoppingcart().isDisplayed())) {
 			ExtentTestManager.getTest().log(Status.PASS, "Step : The item should get deleted from the cart. Test case is passed");
 			//System.out.println("Item should get deleted and test case is passed");
@@ -438,7 +446,10 @@ public class AddToCartPPETestcase extends BaseTest {
 		ExtentTestManager.getTest().log(Status.PASS, "Step : Enter invalid data in the Quantity text box");
 		addtocart.getcartqtytxtbox().sendKeys("eee100");
 		ExtentTestManager.getTest().log(Status.PASS, "Step : Click on update button ");
-		addtocart.getupdatebtn().click();
+		
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='ctl00_cphContent_btnUpdateCart']")));
+	addtocart.getupdatecartbtn().click();
+
 
 		if(addtocart.getemptyshoppingcart().isDisplayed()) {
 			ExtentTestManager.getTest().log(Status.PASS, "Step : The item should get deleted from the cart. Test case is passed");
@@ -497,7 +508,10 @@ public class AddToCartPPETestcase extends BaseTest {
 		ExtentTestManager.getTest().log(Status.PASS, "Step : Enter boundary value in the Quantity text box");
 		addtocart.getcartqtytxtbox().sendKeys("56678");
 		ExtentTestManager.getTest().log(Status.PASS, "Step : Click on update button ");
-		addtocart.getupdatebtn().click();
+		
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='ctl00_cphContent_btnUpdateCart']")));
+	addtocart.getupdatecartbtn().click();
+
 		if(driver.findElement(By.xpath("//div[contains(text(),\"You've exceeded the number of available units for\")]")).isDisplayed()) {
 			ExtentTestManager.getTest().log(Status.PASS, "Step : The item should get deleted from the cart. Test case is passed");
 			//System.out.println("Test case is passed");
@@ -548,8 +562,8 @@ public class AddToCartPPETestcase extends BaseTest {
 		WebElement carttext = addtocart.getCarticontxt();
 		String k = carttext.getText();
 		System.out.println("the value in the cart before sign out:" +k);
-
-		loginPage.getSignIn().click();
+driver.findElement(By.className("dropdown")).click();
+		//loginPage.getSignIn().click();
 		driver.findElement(By.xpath("//a[@class='dropdown-item padditem margn-top']")).click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//li[@class='dropdown']//i[@class='fa fa-chevron-down']")));
 		Thread.sleep(1000);
