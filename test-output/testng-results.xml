@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="14" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="Parallel Class Runs" duration-ms="393570" started-at="2020-10-04T01:40:06 EDT" finished-at="2020-10-04T01:46:40 EDT">
+  <suite name="Parallel Class Runs" duration-ms="403508" started-at="2020-10-04T07:09:19 EDT" finished-at="2020-10-04T07:16:02 EDT">
     <groups>
     </groups>
-    <test name="Dollar Days Test" duration-ms="393570" started-at="2020-10-04T01:40:06 EDT" finished-at="2020-10-04T01:46:40 EDT">
+    <test name="Dollar Days Test" duration-ms="403508" started-at="2020-10-04T07:09:19 EDT" finished-at="2020-10-04T07:16:02 EDT">
       <class name="com.dollardays.testcases.AddToCartPPETestcase">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="beforeClass" is-config="true" duration-ms="15" started-at="2020-10-04T01:40:06 EDT" finished-at="2020-10-04T01:40:06 EDT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-10-04T07:09:19 EDT" finished-at="2020-10-04T07:09:19 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="11976" started-at="2020-10-04T01:40:07 EDT" finished-at="2020-10-04T01:40:19 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="11564" started-at="2020-10-04T07:09:20 EDT" finished-at="2020-10-04T07:09:31 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="FAIL" signature="TC_01_validate_updatecart_in_shopping_cart_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_01_validate_updatecart_in_shopping_cart_page" duration-ms="30209" started-at="2020-10-04T01:40:19 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T01:40:49 EDT">
+        <test-method status="FAIL" signature="TC_01_validate_updatecart_in_shopping_cart_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_01_validate_updatecart_in_shopping_cart_page" duration-ms="31265" started-at="2020-10-04T07:09:31 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T07:10:02 EDT">
           <params>
             <param index="0">
               <value>
@@ -28,23 +28,23 @@
               <![CDATA[element click intercepted: Element <input type="button" name="ctl00$cphContent$btnUpdateCart" value="Update Cart" onclick="javascript:__doPostBack('ctl00$cphContent$btnUpdateCart','')" id="ctl00_cphContent_btnUpdateCart" class="btnClearCart_clear"> is not clickable at point (698, 483). Other element would receive the click: <input type="button" class="iagree btn" style="cursor: pointer; background: #ff6000; color: white;" value="Okay">
   (Session info: headless chrome=85.0.4183.121)
   (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.10 seconds
+Command duration or timeout: 1.09 seconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52821}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir10780_172235019}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.121, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 67636d770840dde1d682d95013a7135a]]>
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58147}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir10992_1737860823}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.121, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 000a49a44c1a59b7b8849abe51b47e74]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: element click intercepted: Element <input type="button" name="ctl00$cphContent$btnUpdateCart" value="Update Cart" onclick="javascript:__doPostBack('ctl00$cphContent$btnUpdateCart','')" id="ctl00_cphContent_btnUpdateCart" class="btnClearCart_clear"> is not clickable at point (698, 483). Other element would receive the click: <input type="button" class="iagree btn" style="cursor: pointer; background: #ff6000; color: white;" value="Okay">
   (Session info: headless chrome=85.0.4183.121)
   (Driver info: chromedriver=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.10 seconds
+Command duration or timeout: 1.09 seconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52821}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir10780_172235019}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.121, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 67636d770840dde1d682d95013a7135a
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58147}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir10992_1737860823}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.121, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 000a49a44c1a59b7b8849abe51b47e74
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -82,15 +82,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01_validate_updatecart_in_shopping_cart_page -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="972" started-at="2020-10-04T01:40:49 EDT" finished-at="2020-10-04T01:40:50 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="943" started-at="2020-10-04T07:10:02 EDT" finished-at="2020-10-04T07:10:03 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8059" started-at="2020-10-04T01:40:50 EDT" finished-at="2020-10-04T01:40:58 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8753" started-at="2020-10-04T07:10:03 EDT" finished-at="2020-10-04T07:10:12 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="TC_02_validate_cart_by_adding_one_item_from_product_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_02_validate_cart_by_adding_one_item_from_product_page" duration-ms="17266" started-at="2020-10-04T01:40:58 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T01:41:16 EDT">
+        <test-method status="PASS" signature="TC_02_validate_cart_by_adding_one_item_from_product_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_02_validate_cart_by_adding_one_item_from_product_page" duration-ms="19186" started-at="2020-10-04T07:10:12 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T07:10:31 EDT">
           <params>
             <param index="0">
               <value>
@@ -101,15 +101,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_02_validate_cart_by_adding_one_item_from_product_page -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="792" started-at="2020-10-04T01:41:16 EDT" finished-at="2020-10-04T01:41:16 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="802" started-at="2020-10-04T07:10:31 EDT" finished-at="2020-10-04T07:10:32 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8237" started-at="2020-10-04T01:41:16 EDT" finished-at="2020-10-04T01:41:25 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8316" started-at="2020-10-04T07:10:32 EDT" finished-at="2020-10-04T07:10:40 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="TC_03_validate_cart_add_one_item_through_add_to_cart_button_on_product_from_PPE_and_Mask_category(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_03_validate_cart_add_one_item_through_add_to_cart_button_on_product_from_PPE_and_Mask_category" duration-ms="16499" started-at="2020-10-04T01:41:25 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T01:41:41 EDT">
+        <test-method status="PASS" signature="TC_03_validate_cart_add_one_item_through_add_to_cart_button_on_product_from_PPE_and_Mask_category(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_03_validate_cart_add_one_item_through_add_to_cart_button_on_product_from_PPE_and_Mask_category" duration-ms="16905" started-at="2020-10-04T07:10:40 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T07:10:57 EDT">
           <params>
             <param index="0">
               <value>
@@ -120,15 +120,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_03_validate_cart_add_one_item_through_add_to_cart_button_on_product_from_PPE_and_Mask_category -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="784" started-at="2020-10-04T01:41:41 EDT" finished-at="2020-10-04T01:41:42 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="797" started-at="2020-10-04T07:10:57 EDT" finished-at="2020-10-04T07:10:58 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8082" started-at="2020-10-04T01:41:42 EDT" finished-at="2020-10-04T01:41:50 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8345" started-at="2020-10-04T07:10:58 EDT" finished-at="2020-10-04T07:11:07 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="TC_04_validate_cart_by_adding_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_04_validate_cart_by_adding_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart" duration-ms="29066" started-at="2020-10-04T01:41:50 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T01:42:19 EDT">
+        <test-method status="PASS" signature="TC_04_validate_cart_by_adding_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_04_validate_cart_by_adding_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart" duration-ms="29715" started-at="2020-10-04T07:11:07 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T07:11:36 EDT">
           <params>
             <param index="0">
               <value>
@@ -139,15 +139,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_04_validate_cart_by_adding_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="752" started-at="2020-10-04T01:42:19 EDT" finished-at="2020-10-04T01:42:20 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="916" started-at="2020-10-04T07:11:36 EDT" finished-at="2020-10-04T07:11:37 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8291" started-at="2020-10-04T01:42:20 EDT" finished-at="2020-10-04T01:42:28 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8072" started-at="2020-10-04T07:11:37 EDT" finished-at="2020-10-04T07:11:45 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="TC_05_validate_clear_items_from_the_cart_from_shopping_cart_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_05_validate_clear_items_from_the_cart_from_shopping_cart_page" duration-ms="11140" started-at="2020-10-04T01:42:28 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T01:42:39 EDT">
+        <test-method status="PASS" signature="TC_05_validate_clear_items_from_the_cart_from_shopping_cart_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_05_validate_clear_items_from_the_cart_from_shopping_cart_page" duration-ms="11387" started-at="2020-10-04T07:11:45 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T07:11:57 EDT">
           <params>
             <param index="0">
               <value>
@@ -158,15 +158,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_05_validate_clear_items_from_the_cart_from_shopping_cart_page -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="770" started-at="2020-10-04T01:42:39 EDT" finished-at="2020-10-04T01:42:40 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="780" started-at="2020-10-04T07:11:57 EDT" finished-at="2020-10-04T07:11:57 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8335" started-at="2020-10-04T01:42:40 EDT" finished-at="2020-10-04T01:42:48 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8204" started-at="2020-10-04T07:11:57 EDT" finished-at="2020-10-04T07:12:06 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="TC_06_Validate_the_case_quantity_text_box_with_valid_data_in_the_shopping_cart_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_06_Validate_the_case_quantity_text_box_with_valid_data_in_the_shopping_cart_page" duration-ms="16430" started-at="2020-10-04T01:42:48 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T01:43:05 EDT">
+        <test-method status="PASS" signature="TC_06_Validate_the_case_quantity_text_box_with_valid_data_in_the_shopping_cart_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_06_Validate_the_case_quantity_text_box_with_valid_data_in_the_shopping_cart_page" duration-ms="18976" started-at="2020-10-04T07:12:06 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T07:12:25 EDT">
           <params>
             <param index="0">
               <value>
@@ -177,15 +177,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_06_Validate_the_case_quantity_text_box_with_valid_data_in_the_shopping_cart_page -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="751" started-at="2020-10-04T01:43:05 EDT" finished-at="2020-10-04T01:43:06 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="802" started-at="2020-10-04T07:12:25 EDT" finished-at="2020-10-04T07:12:25 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8372" started-at="2020-10-04T01:43:06 EDT" finished-at="2020-10-04T01:43:14 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8290" started-at="2020-10-04T07:12:25 EDT" finished-at="2020-10-04T07:12:34 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="TC_07_Validate_the_case_quantity_text_box_with_zero_value_and_verify_the_shopping_cart_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_07_Validate_the_case_quantity_text_box_with_zero_value_and_verify_the_shopping_cart_page" duration-ms="17839" started-at="2020-10-04T01:43:14 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T01:43:32 EDT">
+        <test-method status="PASS" signature="TC_07_Validate_the_case_quantity_text_box_with_zero_value_and_verify_the_shopping_cart_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_07_Validate_the_case_quantity_text_box_with_zero_value_and_verify_the_shopping_cart_page" duration-ms="18381" started-at="2020-10-04T07:12:34 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T07:12:52 EDT">
           <params>
             <param index="0">
               <value>
@@ -196,15 +196,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_07_Validate_the_case_quantity_text_box_with_zero_value_and_verify_the_shopping_cart_page -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="799" started-at="2020-10-04T01:43:32 EDT" finished-at="2020-10-04T01:43:33 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="783" started-at="2020-10-04T07:12:52 EDT" finished-at="2020-10-04T07:12:53 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8404" started-at="2020-10-04T01:43:33 EDT" finished-at="2020-10-04T01:43:41 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8036" started-at="2020-10-04T07:12:53 EDT" finished-at="2020-10-04T07:13:01 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="TC_08_Validate_the_case_quantity_text_box_with_invalid_data_in_the_shopping_cart_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_08_Validate_the_case_quantity_text_box_with_invalid_data_in_the_shopping_cart_page" duration-ms="16105" started-at="2020-10-04T01:43:41 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T01:43:57 EDT">
+        <test-method status="PASS" signature="TC_08_Validate_the_case_quantity_text_box_with_invalid_data_in_the_shopping_cart_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_08_Validate_the_case_quantity_text_box_with_invalid_data_in_the_shopping_cart_page" duration-ms="15788" started-at="2020-10-04T07:13:01 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T07:13:17 EDT">
           <params>
             <param index="0">
               <value>
@@ -215,15 +215,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_08_Validate_the_case_quantity_text_box_with_invalid_data_in_the_shopping_cart_page -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="747" started-at="2020-10-04T01:43:57 EDT" finished-at="2020-10-04T01:43:58 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="767" started-at="2020-10-04T07:13:17 EDT" finished-at="2020-10-04T07:13:17 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8056" started-at="2020-10-04T01:43:58 EDT" finished-at="2020-10-04T01:44:06 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8450" started-at="2020-10-04T07:13:18 EDT" finished-at="2020-10-04T07:13:26 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="TC_09_Validate_the_case_quantity_text_box_with_boundary_value_in_the_shopping_cart_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_09_Validate_the_case_quantity_text_box_with_boundary_value_in_the_shopping_cart_page" duration-ms="15891" started-at="2020-10-04T01:44:06 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T01:44:22 EDT">
+        <test-method status="PASS" signature="TC_09_Validate_the_case_quantity_text_box_with_boundary_value_in_the_shopping_cart_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_09_Validate_the_case_quantity_text_box_with_boundary_value_in_the_shopping_cart_page" duration-ms="16940" started-at="2020-10-04T07:13:26 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T07:13:43 EDT">
           <params>
             <param index="0">
               <value>
@@ -234,15 +234,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_09_Validate_the_case_quantity_text_box_with_boundary_value_in_the_shopping_cart_page -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="799" started-at="2020-10-04T01:44:22 EDT" finished-at="2020-10-04T01:44:23 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="790" started-at="2020-10-04T07:13:43 EDT" finished-at="2020-10-04T07:13:44 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8357" started-at="2020-10-04T01:44:23 EDT" finished-at="2020-10-04T01:44:31 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8417" started-at="2020-10-04T07:13:44 EDT" finished-at="2020-10-04T07:13:52 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="TC_10_Validate_the_cart_when_the_user_signoff_and_signin_with_valid_credentials(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_10_Validate_the_cart_when_the_user_signoff_and_signin_with_valid_credentials" duration-ms="16318" started-at="2020-10-04T01:44:31 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T01:44:47 EDT">
+        <test-method status="PASS" signature="TC_10_Validate_the_cart_when_the_user_signoff_and_signin_with_valid_credentials(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_10_Validate_the_cart_when_the_user_signoff_and_signin_with_valid_credentials" duration-ms="17381" started-at="2020-10-04T07:13:52 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T07:14:09 EDT">
           <params>
             <param index="0">
               <value>
@@ -253,15 +253,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_10_Validate_the_cart_when_the_user_signoff_and_signin_with_valid_credentials -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="803" started-at="2020-10-04T01:44:47 EDT" finished-at="2020-10-04T01:44:48 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="809" started-at="2020-10-04T07:14:10 EDT" finished-at="2020-10-04T07:14:10 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8169" started-at="2020-10-04T01:44:48 EDT" finished-at="2020-10-04T01:44:56 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8157" started-at="2020-10-04T07:14:10 EDT" finished-at="2020-10-04T07:14:18 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="TC_11_validate_no_of_cases_textbox_with_valid_data(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_11_validate_no_of_cases_textbox_with_valid_data" duration-ms="17875" started-at="2020-10-04T01:44:56 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T01:45:14 EDT">
+        <test-method status="PASS" signature="TC_11_validate_no_of_cases_textbox_with_valid_data(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_11_validate_no_of_cases_textbox_with_valid_data" duration-ms="19545" started-at="2020-10-04T07:14:18 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T07:14:38 EDT">
           <params>
             <param index="0">
               <value>
@@ -272,15 +272,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_11_validate_no_of_cases_textbox_with_valid_data -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="782" started-at="2020-10-04T01:45:14 EDT" finished-at="2020-10-04T01:45:15 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="789" started-at="2020-10-04T07:14:38 EDT" finished-at="2020-10-04T07:14:39 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8049" started-at="2020-10-04T01:45:15 EDT" finished-at="2020-10-04T01:45:23 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8304" started-at="2020-10-04T07:14:39 EDT" finished-at="2020-10-04T07:14:47 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="TC_12_Validate_the_number_of_case_text_box_in_the_product_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_12_Validate_the_number_of_case_text_box_in_the_product_page" duration-ms="10102" started-at="2020-10-04T01:45:23 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T01:45:33 EDT">
+        <test-method status="PASS" signature="TC_12_Validate_the_number_of_case_text_box_in_the_product_page(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_12_Validate_the_number_of_case_text_box_in_the_product_page" duration-ms="10281" started-at="2020-10-04T07:14:47 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T07:14:57 EDT">
           <params>
             <param index="0">
               <value>
@@ -291,15 +291,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_12_Validate_the_number_of_case_text_box_in_the_product_page -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="771" started-at="2020-10-04T01:45:33 EDT" finished-at="2020-10-04T01:45:34 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="815" started-at="2020-10-04T07:14:57 EDT" finished-at="2020-10-04T07:14:58 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8065" started-at="2020-10-04T01:45:34 EDT" finished-at="2020-10-04T01:45:42 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8041" started-at="2020-10-04T07:14:58 EDT" finished-at="2020-10-04T07:15:06 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="TC_13_validate_no_of_cases_textbox_with_zero(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_13_validate_no_of_cases_textbox_with_zero" duration-ms="25459" started-at="2020-10-04T01:45:42 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T01:46:07 EDT">
+        <test-method status="PASS" signature="TC_13_validate_no_of_cases_textbox_with_zero(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_13_validate_no_of_cases_textbox_with_zero" duration-ms="24475" started-at="2020-10-04T07:15:06 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T07:15:31 EDT">
           <params>
             <param index="0">
               <value>
@@ -310,15 +310,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_13_validate_no_of_cases_textbox_with_zero -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="917" started-at="2020-10-04T01:46:07 EDT" finished-at="2020-10-04T01:46:08 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="796" started-at="2020-10-04T07:15:31 EDT" finished-at="2020-10-04T07:15:32 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="8201" started-at="2020-10-04T01:46:08 EDT" finished-at="2020-10-04T01:46:17 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="setUpBrowser" is-config="true" duration-ms="7917" started-at="2020-10-04T07:15:32 EDT" finished-at="2020-10-04T07:15:39 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="TC_14_validate_no_of_cases_textbox_with_character(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_14_validate_no_of_cases_textbox_with_character" duration-ms="22509" started-at="2020-10-04T01:46:17 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T01:46:39 EDT">
+        <test-method status="PASS" signature="TC_14_validate_no_of_cases_textbox_with_character(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="TC_14_validate_no_of_cases_textbox_with_character" duration-ms="22103" started-at="2020-10-04T07:15:39 EDT" data-provider="dd-dataprovider" finished-at="2020-10-04T07:16:02 EDT">
           <params>
             <param index="0">
               <value>
@@ -329,11 +329,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_14_validate_no_of_cases_textbox_with_character -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="789" started-at="2020-10-04T01:46:39 EDT" finished-at="2020-10-04T01:46:40 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="quit" is-config="true" duration-ms="780" started-at="2020-10-04T07:16:02 EDT" finished-at="2020-10-04T07:16:02 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-10-04T01:46:40 EDT" finished-at="2020-10-04T01:46:40 EDT">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.dollardays.testcases.AddToCartPPETestcase@4d339552]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-10-04T07:16:02 EDT" finished-at="2020-10-04T07:16:02 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
