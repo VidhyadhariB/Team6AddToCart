@@ -331,8 +331,8 @@ public class AddToCartPage {
 	public WebElement getcaseqtyuparrow() {
 		return caseqtyuparrow;
 	}
-	//@FindBy(xpath = "//input[@id='ctl00_cphContent_btnUpdateCart']")
-@FindBy(xpath = "//*[@id='ctl00_cphContent_btnUpdateCart']")
+	@FindBy(xpath = "//input[@id='ctl00_cphContent_btnUpdateCart']")
+//@FindBy(xpath = "//*[@id='ctl00_cphContent_btnUpdateCart']")
 	private WebElement updatecartbtn;  
 
 	public WebElement getupdatecartbtn() {

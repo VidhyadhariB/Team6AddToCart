@@ -260,8 +260,11 @@ public class AddToCartPPETestcase extends BaseTest {
 			//System.out.println("the value given in the text boxes " +Integer.parseInt(qty.getAttribute("value")));
 		}
 		WebDriverWait wait = new WebDriverWait(driver, 30);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='ctl00_cphContent_btnUpdateCart']")));
-	addtocart.getupdatecartbtn().click();
+		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='ctl00_cphContent_btnUpdateCart']")));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//input[@class='btnClearCart_clear'])[2]")));
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("(//input[@class='btnClearCart_clear'])[2]")).click();
+	//addtocart.getupdatecartbtn().click();
 
 
 		qtytxtbox.clear();

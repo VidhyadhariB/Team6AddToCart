@@ -60,22 +60,24 @@ public class BaseTest extends MT {
 				driver.manage().window().maximize();
 				break;
 
-case "chromeDriver":
-				
+			case "chromeDriver":
+
 				System.setProperty("webdriver.chrome.driver",
-				          System.getProperty("user.dir") + "//servers//chromedriver.exe");
+						System.getProperty("user.dir") + "//servers//chromedriver.exe");
 				//We arae using options class for initiating the chrome and adding args to handle popups and passing the options class in the driver
 				ChromeOptions options  = new ChromeOptions();
-				  options.addArguments("enable-popup-blocking");
-				
-				 
-				 
-				  driver = new ChromeDriver(options);
+				options.addArguments("enable-popup-blocking");
+
+
+
+				driver = new ChromeDriver(options);
 				driver.manage().window().maximize();
-				
+
 				break;
 				
-	/*	case "chromeDriver":
+				
+
+			/*		case "chromeDriver":
 				ChromeOptions options = new ChromeOptions();
 
 //				options.addArguments("--silent");
@@ -96,8 +98,8 @@ case "chromeDriver":
 				driver = new ChromeDriver(service, options);
 				driver.manage().window().maximize();
 				break;
+				 
 */
-
 
 
 
@@ -170,7 +172,7 @@ case "chromeDriver":
 
 		driver.findElement(By.xpath(
 				"//a[@href='/i2323196-wholesale-15-forward-classic-school-backpack-with-side-mesh-pocket-4-colors.html'][contains(text(),'15\" Forward Classic School Backpack with Side Mesh')]"))
-				.click();
+		.click();
 		Thread.sleep(1000);
 		ExtentTestManager.getTest().log(Status.PASS, "Search and open Product description page successful.");
 
