@@ -193,7 +193,7 @@ public class AddToCartPPETestcase extends BaseTest {
 		//System.out.println(skus.equals(cartskus));
 	}
 
-
+/*
 	//Validate update cart button in shopping cart
 	@DDDataProvider(datafile = "testdata/Team6_AddToCart_data.xlsx", sheetName = "AddTOCartPPE",  testcaseID = "TC1", runmode = "Yes")
 	@Test(dataProvider = "dd-dataprovider", dataProviderClass = TestUtil.class)
@@ -274,7 +274,7 @@ public class AddToCartPPETestcase extends BaseTest {
 			//System.out.println("The updated value of  qty text boxes" +Integer.parseInt(qty.getAttribute("value")));
 		}
 	}
-
+*/
 
 	//Validate the case quantity text box with valid data in the shopping cart
 	@DDDataProvider(datafile = "testdata/Team6_AddToCart_data.xlsx", sheetName = "AddTOCartPPE",  testcaseID = "TC1", runmode = "Yes")
