@@ -3,4 +3,4 @@ env.baseUrl = https://www.dollardays.com/
 
 driver = chromeDriver
 
-testReportPath = .\\\\reports
+testReportPath = .\\\\team7reports

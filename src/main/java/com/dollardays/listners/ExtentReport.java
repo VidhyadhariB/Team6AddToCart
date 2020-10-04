@@ -11,11 +11,11 @@ import com.dollardays.utilities.PropertyUtil;
 
 public class ExtentReport {
 
-	private static ExtentReports extentReport;
+	//private static ExtentReports extentReport;
 	private static ExtentSparkReporter extentSparkReporter;
 	public static ExtentTest test;
 	
-	public static void extentReportSetUp(String folderName) throws Exception {
+	/*public static void extentReportSetUp(String folderName) throws Exception {
 		//String testReportPath = PropertyUtil.getProperty("testReportPath");
 		extentSparkReporter = new ExtentSparkReporter(".\\\\reports"+"\\\\"+folderName);
 		extentSparkReporter.config().setReportName("Dollar Days Report");
@@ -33,7 +33,7 @@ public class ExtentReport {
 	public static void flush() {
 		extentReport.flush();
 	}
-	
+	*/
 	public static String getCurrentDateAnTime(){
 		Date date = new Date();
 		SimpleDateFormat formatter = new SimpleDateFormat("ddMMyyyyhhmmss");
@@ -59,16 +59,16 @@ public class ExtentReport {
     	
     	extentSparkReporter = new ExtentSparkReporter(".\\\\reports"+"\\\\"+getCurrentDateAnTime());
 		extentSparkReporter.config().setReportName("Dollar Days Report");
-		extentSparkReporter.config().setDocumentTitle("Dollar Days Document");
+	//	extentSparkReporter.config().setDocumentTitle("Dollar Days Document");
 
 		extent = new ExtentReports();
 		extent.attachReporter(extentSparkReporter);
 		extent.setSystemInfo("Tester", "Tester Name");
  
-        return extent;
+         return extent;
     }
      
-    //Create the report path
+  /*  //Create the report path
     private static String getReportPath (String path) {
     	File testDirectory = new File(path);
         if (!testDirectory.exists()) {
@@ -84,6 +84,6 @@ public class ExtentReport {
         }
 		return reportFileLocation;
     }
- 
+ */
 
 }

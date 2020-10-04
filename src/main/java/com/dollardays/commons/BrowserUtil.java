@@ -9,7 +9,6 @@ import java.io.File;
 import java.util.Iterator;
 import java.util.Set;
 
-import org.apache.bcel.generic.Select;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotVisibleException;
@@ -18,11 +17,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebElement;
 
 public class BrowserUtil {
-	 
 
 	//Use this Upload file functionality when window based pop up is available
 	public static void fileupload(String file) throws AWTException, InterruptedException {
@@ -157,15 +154,5 @@ public class BrowserUtil {
 		   }catch(Exception e){
 			   throw new Exception("No element found for TakesnapShot " +e );
 		   }
-	   
-	 }
-	
-	
-		
-		
-		
-	
-		 
-		 
-	 }
-
+	   }
+}

@@ -24,10 +24,11 @@ import com.dollardays.utilities.DDDataProvider;
 import com.dollardays.utilities.TestUtil;
 
 public class AddToCartPage {
-	
+	//Instantiation of the webdriver 
 	WebDriver driver;
 
-	
+	//Creating the constructor to call all the Webelements in this page .Ex : menuicon,ppe etc
+
 	public AddToCartPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -466,7 +467,7 @@ public class AddToCartPage {
 		getMenuIcon().click();
 		ExtentTestManager.getTest().log(Status.PASS, "Step 2: click on Menu Icon ");
 		Thread.sleep(1000);
-		getPPEmask().click();
+		getPPEmask().click();//Identify Mask,sanitiser and PPE and click
 		ExtentTestManager.getTest().log(Status.PASS, "Step 3 : Click on PPE Mask tab ");
 		Thread.sleep(1000);
 	}

@@ -7,15 +7,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 
 import com.dollardays.commons.Base64;
 
-public class LoginPage {
-
+public class Team1LoginPage {
+	
 	WebDriver driver;
 
-	public LoginPage(WebDriver driver) {
+	public Team1LoginPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
@@ -55,8 +54,7 @@ public class LoginPage {
 		return loginBtn;
 	}
 	
-	//@FindBy(xpath = "//*[@id='header-main']/div/div/div[3]/div/ul/li[1]/a")
-	@FindBy(xpath="//*[@id=\"aspnetForm\"]/header/div/div/div/div[3]/div/ul/li[1]/a/span")
+	@FindBy(xpath = "//*[@id='header-main']/div/div/div[3]/div/ul/li[1]/a")
 	private WebElement userDrodown;
 
 	public WebElement getUserDrodown() {
@@ -65,7 +63,14 @@ public class LoginPage {
 	
 	@FindBy(xpath = "//a[normalize-space(.)='Sign Out']")
 	private WebElement logoutBtn;
+    
+	
+	@FindBy(xpath="//a[@class='dropdown-toggle' and @role='button']/descendant::span")
+	private WebElement user_Name;
 
+	public String getSignInUser_Name() {
+		return user_Name.getText();
+	}
 	public WebElement getLogoutBtn() {
 		return logoutBtn;
 	}	
@@ -75,14 +80,10 @@ public class LoginPage {
 		Thread.sleep(1000);
 		getSignIn().click();
 		getDropdownsignIn().click();
-		getUsername().sendKeys(username);
+		getUsername().sendKeys(username);		
 		getPassword().sendKeys(password);
-		Thread.sleep(500);
 		getPassword().submit();
 		//getLoginBtn().click();
-		String expectedTitle = "DollarDays | Bulk Goods for Nonprofits, Businesses & Schools | Wholesale Products";
-		String actualTitle = driver.getTitle();
-		Assert.assertEquals(actualTitle, expectedTitle, " Successfully Logged into the HomePage");
 	}
 	
 	public void invokeLogin() throws UnsupportedEncodingException, InterruptedException, GeneralSecurityException {
@@ -94,5 +95,5 @@ public class LoginPage {
 		getPassword().submit();
 		//getLoginBtn().click();
 	}
-
+   
 }

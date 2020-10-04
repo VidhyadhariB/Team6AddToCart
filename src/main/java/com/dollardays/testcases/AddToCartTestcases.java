@@ -3,12 +3,14 @@ package com.dollardays.testcases;
 import java.io.UnsupportedEncodingException;
 import java.security.GeneralSecurityException;
 import java.util.Hashtable;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import com.aventstack.extentreports.Status;
 import com.dollardays.commons.Base64;
 import com.dollardays.listners.ExtentTestManager;
@@ -20,7 +22,7 @@ import com.dollardays.utilities.TestUtil;
 public class AddToCartTestcases extends BaseTest {
 
 	
-	//Rupali Testcases
+	//Rupali Testcases//
 
 		//Validate add to cart buy now button from smaller case packs from homepage banner.
 		@DDDataProvider(datafile = "testdata/Team6_AddToCart_data.xlsx", sheetName = "AddTOCartPPE",  testcaseID = "TC1", runmode = "Yes")
@@ -205,8 +207,8 @@ public class AddToCartTestcases extends BaseTest {
 			Thread.sleep(1000);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='Search for items in bulk']")));
 
-			//WebElement e = driver.findElement(By.xpath("//li[1]//a[1]//div[1]//img[1]"));
-			WebElement e = addtocart.getimage1();
+			WebElement e = driver.findElement(By.xpath("//li[1]//a[1]//div[1]//img[1]"));
+			//WebElement e = addtocart.getimage1();
 			String s = e.getText();
 			e.click();
 
