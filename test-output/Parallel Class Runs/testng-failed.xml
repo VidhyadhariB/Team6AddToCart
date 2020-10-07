@@ -6,15 +6,21 @@
   </listeners>
   <test thread-count="4" name="Dollar Days Test(failed)" parallel="classes">
     <classes>
-      <class name="com.dollardays.testcases.AddToCartPPETestcase">
+      <class name="com.dollardays.testcases.AddToCartTestcases">
         <methods>
+          <include name="TC_01_ValidateAddToCartFromSearchbarWithnoData" invocation-numbers="0"/>
+          <include name="TC_25_addtocartvalidate_clickonimage"/>
+          <include name="TC_21_addtocartvalidate" invocation-numbers="0"/>
           <include name="afterClass"/>
-          <include name="TC_01_validate_updatecart_in_shopping_cart_page" invocation-numbers="0"/>
+          <include name="TC_22_addtocartvalidate" invocation-numbers="0"/>
           <include name="beforeClass"/>
+          <include name="TC_20_Validate_addtocart_by_clicking_on_buy_nowbutton_from_adv_banner_without_login" invocation-numbers="0"/>
           <include name="quit"/>
+          <include name="TC_19_ValidateAddToCartFromSearchbarWithValidData" invocation-numbers="0"/>
+          <include name="TC_23_addtocartvalidate" invocation-numbers="0"/>
           <include name="setUpBrowser"/>
         </methods>
-      </class> <!-- com.dollardays.testcases.AddToCartPPETestcase -->
+      </class> <!-- com.dollardays.testcases.AddToCartTestcases -->
     </classes>
   </test> <!-- Dollar Days Test(failed) -->
 </suite> <!-- Failed suite [Parallel Class Runs] -->

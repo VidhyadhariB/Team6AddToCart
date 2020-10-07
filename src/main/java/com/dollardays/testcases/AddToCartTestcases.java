@@ -155,7 +155,7 @@ public class AddToCartTestcases extends BaseTest {
 		//Validate add to my cart button functionality is adding item to the shoping cart when clicking on search bar without entering any text on the dollardays home page
 		@DDDataProvider(datafile = "testdata/Team6_AddToCart_data.xlsx", sheetName = "AddTOCartPPE",  testcaseID = "TC1", runmode = "Yes")
 		@Test(dataProvider = "dd-dataprovider", dataProviderClass = TestUtil.class)
-		public void TC_18_ValidateAddToCartFromSearchbarWithnoData(Hashtable<String, String> datatable) throws InterruptedException, UnsupportedEncodingException, GeneralSecurityException{
+		public void TC_01_ValidateAddToCartFromSearchbarWithnoData(Hashtable<String, String> datatable) throws InterruptedException, UnsupportedEncodingException, GeneralSecurityException{
 
 			ExtentTestManager.getTest().log(Status.PASS, "Testcase 1 : Validate Add To Cart From Searchbar Without entering any Data");
 			AddToCartPage addToCart = new AddToCartPage(driver);
@@ -170,14 +170,14 @@ public class AddToCartTestcases extends BaseTest {
 			addToCart.getsearchbar().click();
 			Thread.sleep(1000);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='Search for items in bulk']")));
-			//driver.findElement(By.xpath("//input[@placeholder='Search for items in bulk']")).click();
-			//driver.findElement(By.xpath("//div[@class='rfk_results']//li[1]")).click();
-
+			
 			ExtentTestManager.getTest().log(Status.PASS, "Step 3  : Click on a selected visible");
-			addToCart.getselectedItem().click();
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"rfk_search_container\"]/div[3]/ul/li[1]/a/div[1]/img")));
+			//addToCart.getselectedItem().click();
+			driver.findElement(By.xpath("//*[@id=\"rfk_search_container\"]/div[3]/ul/li[1]/a/div[1]/img")).click();
 			Thread.sleep(5000);
 			AddToCartPage addtocart = new AddToCartPage(driver);
-			//driver.findElement(By.xpath("//*[@id=\"ctl00_cphContent_divProductInfo\"]/div/div/div[1]/div[3]/div/div[3]/div[1]/div/div/div[3]/button")).click();
+			
 			ExtentTestManager.getTest().log(Status.PASS, "Step 4  : Click on Add To My Cart button");
 			addtocart.getAddToMyCartbtn().click();
 			addtocart.HandleAddtocartPopup();

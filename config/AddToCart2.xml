@@ -5,21 +5,10 @@
 	<listeners>
 		<listener class-name="com.dollardays.listners.TestListener" />
 	</listeners>
-
-
 <test name="Dollar Days Test">
-
-
 <classes>
-
-<class name="com.dollardays.testcases.AddToCartPPETestcase"/>
-<class name="com.dollardays.testcases.AddtoCartPPENegativeTestcases"></class>
-
+<class name="com.dollardays.testcases.AddToCartTestcases"></class>
 </classes>
-
 </test>
-
 <!-- Test -->
-
-
 </suite>

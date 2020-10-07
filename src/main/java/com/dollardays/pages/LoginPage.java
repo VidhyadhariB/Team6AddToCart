@@ -20,7 +20,8 @@ public class LoginPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath = "//a[normalize-space(.)='Sign in']")
+	//@FindBy(xpath = "//a[normalize-space(.)='Sign in']")
+	@FindBy(className = "dropdown")
 	private WebElement signIn;
 
 	public WebElement getSignIn() {

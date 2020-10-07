@@ -60,7 +60,7 @@ public class AddToCartPage {
 		return itemaddtocart;
 	}
 
-	@FindBy(xpath = "//button[@class='cart_newbtn btn dd-btn-secondary btn-quick-view bold jqatc fsig gtmAddCart btn-group-lg']")
+	@FindBy(xpath = "//button[contains(text(),'Add to my cart')]")
 	private WebElement addtomycartbtn;
 
 	public WebElement getAddToMyCartbtn() {
@@ -205,8 +205,8 @@ public class AddToCartPage {
 	}
 	
 	
-	@FindBy (xpath ="//div[@class='rfk_results']//li[1]") //Click on Selected item
-	
+	//@FindBy (xpath ="//div[@class='rfk_results']//li[1]") //Click on Selected item
+	@FindBy (xpath = "(//img[@class='rfk_image'])[1]")
 	private WebElement selectedItem;
 
 	public WebElement getselectedItem() {
@@ -214,9 +214,8 @@ public class AddToCartPage {
 	}
 	
 	@FindBy (xpath ="//li[@class='itemid']") //item sku
-	
 	private WebElement itemsku;
-
+	
 	public WebElement getitemsku() {
 		return itemsku;
 	}
