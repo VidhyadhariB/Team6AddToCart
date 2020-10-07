@@ -85,7 +85,7 @@ public class BaseTest extends MT {
 //				options.addArguments("test-type");
 //				options.addArguments("--ignore-certificate-errors");
 //				options.addArguments("no-sandbox");
-				options.addArguments("--headless");
+//				options.addArguments("--headless");
 //				options.addArguments("excludeSwitches");
 //				options.addArguments("enable-logging");
 
