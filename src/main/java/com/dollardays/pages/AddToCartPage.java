@@ -24,11 +24,10 @@ import com.dollardays.utilities.DDDataProvider;
 import com.dollardays.utilities.TestUtil;
 
 public class AddToCartPage {
-	//Instantiation of the webdriver 
+	
 	WebDriver driver;
 
-	//Creating the constructor to call all the Webelements in this page .Ex : menuicon,ppe etc
-
+	
 	public AddToCartPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -60,7 +59,7 @@ public class AddToCartPage {
 		return itemaddtocart;
 	}
 
-	@FindBy(xpath = "//button[contains(text(),'Add to my cart')]")
+	@FindBy(xpath = "//button[@class='cart_newbtn btn dd-btn-secondary btn-quick-view bold jqatc fsig gtmAddCart btn-group-lg']")
 	private WebElement addtomycartbtn;
 
 	public WebElement getAddToMyCartbtn() {
@@ -205,8 +204,8 @@ public class AddToCartPage {
 	}
 	
 	
-	//@FindBy (xpath ="//div[@class='rfk_results']//li[1]") //Click on Selected item
-	@FindBy (xpath = "(//img[@class='rfk_image'])[1]")
+	@FindBy (xpath ="//div[@class='rfk_results']//li[1]") //Click on Selected item
+	
 	private WebElement selectedItem;
 
 	public WebElement getselectedItem() {
@@ -214,8 +213,9 @@ public class AddToCartPage {
 	}
 	
 	@FindBy (xpath ="//li[@class='itemid']") //item sku
-	private WebElement itemsku;
 	
+	private WebElement itemsku;
+
 	public WebElement getitemsku() {
 		return itemsku;
 	}
@@ -331,7 +331,7 @@ public class AddToCartPage {
 		return caseqtyuparrow;
 	}
 	@FindBy(xpath = "//input[@id='ctl00_cphContent_btnUpdateCart']")
-//@FindBy(xpath = "//*[@id='ctl00_cphContent_btnUpdateCart']")
+
 	private WebElement updatecartbtn;  
 
 	public WebElement getupdatecartbtn() {
@@ -466,7 +466,7 @@ public class AddToCartPage {
 		getMenuIcon().click();
 		ExtentTestManager.getTest().log(Status.PASS, "Step 2: click on Menu Icon ");
 		Thread.sleep(1000);
-		getPPEmask().click();//Identify Mask,sanitiser and PPE and click
+		getPPEmask().click();
 		ExtentTestManager.getTest().log(Status.PASS, "Step 3 : Click on PPE Mask tab ");
 		Thread.sleep(1000);
 	}
