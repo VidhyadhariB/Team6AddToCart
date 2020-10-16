@@ -1,4 +1,1 @@
 /target/
-*.avi
-# exception to the rule
-!automationrecordings/.gitkeep

@@ -1,0 +1,1936 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ExtentReports</title>
+        <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+        <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+	    <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/spark/css/spark-style.css" rel="stylesheet" />
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style type="text/css">
+
+</style></head>    <script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="spa -report standard">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+<div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">Dollar Days Report</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">Oct 16, 2020 04:20:51 PM</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div><div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown" onclick="toggleView('test-view')">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>            <div class="page-container">
+                <div class="main-content">
+<div class="test-wrapper row test-view">
+	<div class="test-list">
+		<div class="test-list-tools">
+			<ul class="tools pull-left">
+				<li>
+					<a href="">
+					<span class="font-size-14">Tests</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="tools text-right">
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<i class="fa fa-exclamation-circle"></i>
+					</a>
+					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+						<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
+						<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>
+						
+						
+						
+						<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning pull-right"></span></a>
+						<div class="dropdown-divider"></div>
+						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="test-list-wrapper scrollable">
+			<ul class="test-list-item">
+				<li class="test-item"  status="pass" test-id="1"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_01_Validate_addtocart_by_clicking_on_buy_nowbutton_from_adv_banner_without_login</p>
+							<p class="duration text-sm">0h 0m 16s+899ms</p>
+							<span class="datetime">16:20:51 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">TC_01_Validate_addtocart_by_clicking_on_buy_nowbutton_from_adv_banner_without_login</h5>
+									<span class='badge badge-success'>10.16.2020 16:20:51</span>
+									<span class='badge badge-danger'>10.16.2020 16:21:08</span>
+									<span class='badge badge-default'>0h 0m 16s+899ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:20:51 PM</td>
+				<td>
+						Step 1  : Click on Buy Now button from Advertising Banner
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:20:54 PM</td>
+				<td>
+						Step 2 : Click on log in to buy button .
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:20:56 PM</td>
+				<td>
+						Step 3 : User Sign In with valid credentials.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:01 PM</td>
+				<td>
+						Step 4 : Click on Add to Cart.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:02 PM</td>
+				<td>
+						Step : Click on add to cart button and should display I accept button with pop up message as All sales of this product are final. Due to high demand and to support all customers, cancellations, returns, refunds or exchanges are prohibited.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:05 PM</td>
+				<td>
+						Step 5 : Click on View Cart.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:08 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="2"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_02_addtocartvalidate_shopallbtn_clickonimage</p>
+							<p class="duration text-sm">0h 0m 19s+103ms</p>
+							<span class="datetime">16:21:18 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">TC_02_addtocartvalidate_shopallbtn_clickonimage</h5>
+									<span class='badge badge-success'>10.16.2020 16:21:18</span>
+									<span class='badge badge-danger'>10.16.2020 16:21:37</span>
+									<span class='badge badge-default'>0h 0m 19s+103ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:18 PM</td>
+				<td>
+						Testcase 1 : Verify Search functionality
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:18 PM</td>
+				<td>
+						Step 1  : Login with Valid credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:25 PM</td>
+				<td>
+						Step 2  : Clicked on shop all back to school banner
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:27 PM</td>
+				<td>
+						Step 3  : clicked on writing tool click on image
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:29 PM</td>
+				<td>
+						Step 4  : Clicked on selected item
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:30 PM</td>
+				<td>
+						Step 5  : Clicked on add to my cart button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:33 PM</td>
+				<td>
+						Step 6  : Item is added in the cart sucssesfully
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:33 PM</td>
+				<td>
+						Step 7  : Clicked on clear cart
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:36 PM</td>
+				<td>
+						Step 8  : Clicked on ok button and cart is empty
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:37 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="3"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_03_addtocartvalidate_clickonimage</p>
+							<p class="duration text-sm">0h 0m 17s+400ms</p>
+							<span class="datetime">16:21:47 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">TC_03_addtocartvalidate_clickonimage</h5>
+									<span class='badge badge-success'>10.16.2020 16:21:47</span>
+									<span class='badge badge-danger'>10.16.2020 16:22:04</span>
+									<span class='badge badge-default'>0h 0m 17s+400ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:47 PM</td>
+				<td>
+						Testcase 1 : Verify Search functionality
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:47 PM</td>
+				<td>
+						Step 1  : Login with Valid credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:55 PM</td>
+				<td>
+						Step 2  : clicked on click on image
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:55 PM</td>
+				<td>
+						Step 3  : Clicked on add to cart button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:57 PM</td>
+				<td>
+						Step : Click on add to cart button and should display I accept button with pop up message as All sales of this product are final. Due to high demand and to support all customers, cancellations, returns, refunds or exchanges are prohibited.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:21:59 PM</td>
+				<td>
+						Step 4  : Clicked on cart menu and selected item is added in the cart for checkout
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:00 PM</td>
+				<td>
+						Step 5  : Clicked on clear cart
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:03 PM</td>
+				<td>
+						Step 6  : Clicked on ok button and cart is empty
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:04 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="4"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_04_validate_the_user_is_able_to_add_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart</p>
+							<p class="duration text-sm">0h 0m 27s+787ms</p>
+							<span class="datetime">16:22:14 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">TC_04_validate_the_user_is_able_to_add_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart</h5>
+									<span class='badge badge-success'>10.16.2020 16:22:14</span>
+									<span class='badge badge-danger'>10.16.2020 16:22:41</span>
+									<span class='badge badge-default'>0h 0m 27s+787ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:14 PM</td>
+				<td>
+						Step : Login with Valid credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:19 PM</td>
+				<td>
+						Step : Clear the cart
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:22 PM</td>
+				<td>
+						Step 2: click on Menu Icon
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:25 PM</td>
+				<td>
+						Step 3 : Click on PPE Mask tab
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:28 PM</td>
+				<td>
+						Step : click on one item to be added to the cart
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:29 PM</td>
+				<td>
+						Step : Click on add to cart button and should display I accept button with pop up message as All sales of this product are final. Due to high demand and to support all customers, cancellations, returns, refunds or exchanges are prohibited.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:30 PM</td>
+				<td>
+						Step : click on one item to be added to the cart
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:31 PM</td>
+				<td>
+						Step : Click on add to cart button and should display I accept button with pop up message as All sales of this product are final. Due to high demand and to support all customers, cancellations, returns, refunds or exchanges are prohibited.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:32 PM</td>
+				<td>
+						Step : click on one item to be added to the cart
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:33 PM</td>
+				<td>
+						Step : Click on add to cart button and should display I accept button with pop up message as All sales of this product are final. Due to high demand and to support all customers, cancellations, returns, refunds or exchanges are prohibited.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:34 PM</td>
+				<td>
+						Step : click on one item to be added to the cart
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:35 PM</td>
+				<td>
+						Step : Click on add to cart button and should display I accept button with pop up message as All sales of this product are final. Due to high demand and to support all customers, cancellations, returns, refunds or exchanges are prohibited.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:35 PM</td>
+				<td>
+						Step : Click on cart icon and the page should redirect to shopping cart page
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:37 PM</td>
+				<td>
+						Step : The products added in the shopping and and their corresponding SKU's SKU # 2349770
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:38 PM</td>
+				<td>
+						Step : The products added in the shopping and and their corresponding SKU's SKU # 2351690
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:39 PM</td>
+				<td>
+						Step : The products added in the shopping and and their corresponding SKU's SKU # 2347344
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:40 PM</td>
+				<td>
+						Step : The products added in the shopping and and their corresponding SKU's SKU # 2350143
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:41 PM</td>
+				<td>
+						Step : Correct Products added in the shopping cart page. Test case is passed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:41 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="5"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_05_Validate_update_cart_hyper_link_in_the_shopping_cart_page</p>
+							<p class="duration text-sm">0h 0m 32s+323ms</p>
+							<span class="datetime">16:22:51 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">TC_05_Validate_update_cart_hyper_link_in_the_shopping_cart_page</h5>
+									<span class='badge badge-success'>10.16.2020 16:22:51</span>
+									<span class='badge badge-danger'>10.16.2020 16:23:24</span>
+									<span class='badge badge-default'>0h 0m 32s+323ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:51 PM</td>
+				<td>
+						Step : Login with Valid credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:22:57 PM</td>
+				<td>
+						Step : Clear the cart
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:01 PM</td>
+				<td>
+						Step : Pop up message isOk
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:01 PM</td>
+				<td>
+						Step : Click on clear cart confirmation pop up
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:03 PM</td>
+				<td>
+						Step 2: click on Menu Icon
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:05 PM</td>
+				<td>
+						Step 3 : Click on PPE Mask tab
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:07 PM</td>
+				<td>
+						Step : Click on one items
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:08 PM</td>
+				<td>
+						Step : Click on add to cart button and should display I accept button with pop up message as All sales of this product are final. Due to high demand and to support all customers, cancellations, returns, refunds or exchanges are prohibited.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:10 PM</td>
+				<td>
+						Step : Click on one items
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:11 PM</td>
+				<td>
+						Step : Click on add to cart button and should display I accept button with pop up message as All sales of this product are final. Due to high demand and to support all customers, cancellations, returns, refunds or exchanges are prohibited.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:12 PM</td>
+				<td>
+						Step : Click on one items
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:13 PM</td>
+				<td>
+						Step : Click on add to cart button and should display I accept button with pop up message as All sales of this product are final. Due to high demand and to support all customers, cancellations, returns, refunds or exchanges are prohibited.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:14 PM</td>
+				<td>
+						Step : Click on one items
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:15 PM</td>
+				<td>
+						Step : Click on add to cart button and should display I accept button with pop up message as All sales of this product are final. Due to high demand and to support all customers, cancellations, returns, refunds or exchanges are prohibited.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:15 PM</td>
+				<td>
+						Step : Click on cart icon and the page should redirect to shopping cart page
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:24 PM</td>
+				<td>
+						Step : The quantity text box in the shopping cart page is edited and click on update cart . The values in each qty is  5
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:24 PM</td>
+				<td>
+						Step : The quantity text box in the shopping cart page is edited and click on update cart . The values in each qty is  6
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:24 PM</td>
+				<td>
+						Step : The quantity text box in the shopping cart page is edited and click on update cart . The values in each qty is  7
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:24 PM</td>
+				<td>
+						Step : The quantity text box in the shopping cart page is edited and click on update cart . The values in each qty is  8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:24 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="6"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_06_Validate_the_case_quantity_text_box_with_valid_data_in_the_shopping_cart_page</p>
+							<p class="duration text-sm">0h 0m 21s+426ms</p>
+							<span class="datetime">16:23:34 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">TC_06_Validate_the_case_quantity_text_box_with_valid_data_in_the_shopping_cart_page</h5>
+									<span class='badge badge-success'>10.16.2020 16:23:34</span>
+									<span class='badge badge-danger'>10.16.2020 16:23:55</span>
+									<span class='badge badge-default'>0h 0m 21s+426ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:34 PM</td>
+				<td>
+						Step : Login with Valid credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:39 PM</td>
+				<td>
+						Step : Clear the cart
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:43 PM</td>
+				<td>
+						Step : Pop up message isOk
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:43 PM</td>
+				<td>
+						Step : Click on clear cart confirmation pop up
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:46 PM</td>
+				<td>
+						Step 2: click on Menu Icon
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:48 PM</td>
+				<td>
+						Step 3 : Click on PPE Mask tab
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:49 PM</td>
+				<td>
+						Step : Click on add to cart button which is on the product
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:51 PM</td>
+				<td>
+						Step : Click on add to cart button and should display I accept button with pop up message as All sales of this product are final. Due to high demand and to support all customers, cancellations, returns, refunds or exchanges are prohibited.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:51 PM</td>
+				<td>
+						Step : Click on cart icon and the page should redirect to the shopping cart page
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:53 PM</td>
+				<td>
+						Step : Verifying the cart shopping page
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:53 PM</td>
+				<td>
+						Step : Clear the Quantity text box before giving the valid data
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:53 PM</td>
+				<td>
+						Step : Enter 5 in the Quantity text box
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:53 PM</td>
+				<td>
+						Step : Click on update button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:55 PM</td>
+				<td>
+						Step : The value in the quantity textbox in the shopping cart page is5
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:55 PM</td>
+				<td>
+						Step : quantity textbox is accepting the valid data. Test case is passed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:23:55 PM</td>
+				<td>
+						Test passed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="fail" test-id="7"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar fail-bg">
+						<i class="fa fa-times text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_07_Validate_the_case_quantity_text_box_with_zero_value_and_verify_the_shopping_cart_page</p>
+							<p class="duration text-sm">0h 0m 22s+893ms</p>
+							<span class="datetime">16:24:05 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-fail">TC_07_Validate_the_case_quantity_text_box_with_zero_value_and_verify_the_shopping_cart_page</h5>
+									<span class='badge badge-success'>10.16.2020 16:24:05</span>
+									<span class='badge badge-danger'>10.16.2020 16:24:27</span>
+									<span class='badge badge-default'>0h 0m 22s+893ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:24:05 PM</td>
+				<td>
+						Step 1  : Login with Valid credentials
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:24:10 PM</td>
+				<td>
+						Step : Check the cart icon value if it is not 0, clear the cart
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:24:14 PM</td>
+				<td>
+						Step : Pop up message isOk
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>4:24:14 PM</td>
+				<td>
+						Step : Click on clear cart confirmation pop up
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>4:24:27 PM</td>
+				<td>
+						Test Failed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="skip" test-id="8"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar skip-bg">
+						<i class="fa fa-long-arrow-right text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_08_Validate_the_case_quantity_text_box_with_invalid_data_in_the_shopping_cart_page</p>
+							<p class="duration text-sm">0h 0m 0s+2ms</p>
+							<span class="datetime">16:24:28 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-skip">TC_08_Validate_the_case_quantity_text_box_with_invalid_data_in_the_shopping_cart_page</h5>
+									<span class='badge badge-success'>10.16.2020 16:24:28</span>
+									<span class='badge badge-danger'>10.16.2020 16:24:28</span>
+									<span class='badge badge-default'>0h 0m 0s+2ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>4:24:28 PM</td>
+				<td>
+						Test Skipped
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="skip" test-id="9"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar skip-bg">
+						<i class="fa fa-long-arrow-right text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_09_Validate_the_case_quantity_text_box_with_boundary_value_in_the_shopping_cart_page</p>
+							<p class="duration text-sm">0h 0m 0s+3ms</p>
+							<span class="datetime">16:24:28 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-skip">TC_09_Validate_the_case_quantity_text_box_with_boundary_value_in_the_shopping_cart_page</h5>
+									<span class='badge badge-success'>10.16.2020 16:24:28</span>
+									<span class='badge badge-danger'>10.16.2020 16:24:28</span>
+									<span class='badge badge-default'>0h 0m 0s+3ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>4:24:28 PM</td>
+				<td>
+						Test Skipped
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="skip" test-id="10"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar skip-bg">
+						<i class="fa fa-long-arrow-right text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_10_Validate_the_cart_when_the_user_signoff_and_signin_with_valid_credentials</p>
+							<p class="duration text-sm">0h 0m 0s+5ms</p>
+							<span class="datetime">16:24:28 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-skip">TC_10_Validate_the_cart_when_the_user_signoff_and_signin_with_valid_credentials</h5>
+									<span class='badge badge-success'>10.16.2020 16:24:28</span>
+									<span class='badge badge-danger'>10.16.2020 16:24:28</span>
+									<span class='badge badge-default'>0h 0m 0s+5ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>4:24:28 PM</td>
+				<td>
+						Test Skipped
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="skip" test-id="11"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar skip-bg">
+						<i class="fa fa-long-arrow-right text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_11_validate_no_of_cases_textbox_with_valid_data</p>
+							<p class="duration text-sm">0h 0m 0s+2ms</p>
+							<span class="datetime">16:24:28 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-skip">TC_11_validate_no_of_cases_textbox_with_valid_data</h5>
+									<span class='badge badge-success'>10.16.2020 16:24:28</span>
+									<span class='badge badge-danger'>10.16.2020 16:24:28</span>
+									<span class='badge badge-default'>0h 0m 0s+2ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>4:24:28 PM</td>
+				<td>
+						Test Skipped
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="skip" test-id="12"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar skip-bg">
+						<i class="fa fa-long-arrow-right text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_12_Validate_the_number_of_case_text_box_in_the_product_page</p>
+							<p class="duration text-sm">0h 0m 0s+6ms</p>
+							<span class="datetime">16:24:28 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-skip">TC_12_Validate_the_number_of_case_text_box_in_the_product_page</h5>
+									<span class='badge badge-success'>10.16.2020 16:24:28</span>
+									<span class='badge badge-danger'>10.16.2020 16:24:28</span>
+									<span class='badge badge-default'>0h 0m 0s+6ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>4:24:28 PM</td>
+				<td>
+						Test Skipped
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="skip" test-id="13"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar skip-bg">
+						<i class="fa fa-long-arrow-right text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_13_validate_no_of_cases_textbox_with_zero</p>
+							<p class="duration text-sm">0h 0m 0s+12ms</p>
+							<span class="datetime">16:24:28 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-skip">TC_13_validate_no_of_cases_textbox_with_zero</h5>
+									<span class='badge badge-success'>10.16.2020 16:24:28</span>
+									<span class='badge badge-danger'>10.16.2020 16:24:28</span>
+									<span class='badge badge-default'>0h 0m 0s+12ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>4:24:28 PM</td>
+				<td>
+						Test Skipped
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="skip" test-id="14"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar skip-bg">
+						<i class="fa fa-long-arrow-right text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_14_validate_no_of_cases_textbox_with_character</p>
+							<p class="duration text-sm">0h 0m 0s+3ms</p>
+							<span class="datetime">16:24:28 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-skip">TC_14_validate_no_of_cases_textbox_with_character</h5>
+									<span class='badge badge-success'>10.16.2020 16:24:28</span>
+									<span class='badge badge-danger'>10.16.2020 16:24:28</span>
+									<span class='badge badge-default'>0h 0m 0s+3ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>4:24:28 PM</td>
+				<td>
+						Test Skipped
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="skip" test-id="15"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar skip-bg">
+						<i class="fa fa-long-arrow-right text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_15_ValidateAddToCart_BuyNow_smallercasepacks</p>
+							<p class="duration text-sm">0h 0m 0s+2ms</p>
+							<span class="datetime">16:24:28 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-skip">TC_15_ValidateAddToCart_BuyNow_smallercasepacks</h5>
+									<span class='badge badge-success'>10.16.2020 16:24:28</span>
+									<span class='badge badge-danger'>10.16.2020 16:24:28</span>
+									<span class='badge badge-default'>0h 0m 0s+2ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>4:24:28 PM</td>
+				<td>
+						Test Skipped
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="skip" test-id="16"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar skip-bg">
+						<i class="fa fa-long-arrow-right text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_16_ValidateAddToCart_BuyNow_3PlyFaceMask</p>
+							<p class="duration text-sm">0h 0m 0s+3ms</p>
+							<span class="datetime">16:24:28 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-skip">TC_16_ValidateAddToCart_BuyNow_3PlyFaceMask</h5>
+									<span class='badge badge-success'>10.16.2020 16:24:28</span>
+									<span class='badge badge-danger'>10.16.2020 16:24:28</span>
+									<span class='badge badge-default'>0h 0m 0s+3ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>4:24:28 PM</td>
+				<td>
+						Test Skipped
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="skip" test-id="17"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar skip-bg">
+						<i class="fa fa-long-arrow-right text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_17_ValidateAddToCart_BuyNow_PremiumAlcoholWipes</p>
+							<p class="duration text-sm">0h 0m 0s+8ms</p>
+							<span class="datetime">16:24:28 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-skip">TC_17_ValidateAddToCart_BuyNow_PremiumAlcoholWipes</h5>
+									<span class='badge badge-success'>10.16.2020 16:24:28</span>
+									<span class='badge badge-danger'>10.16.2020 16:24:28</span>
+									<span class='badge badge-default'>0h 0m 0s+8ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>4:24:28 PM</td>
+				<td>
+						Test Skipped
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="skip" test-id="18"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar skip-bg">
+						<i class="fa fa-long-arrow-right text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_18_ValidateAddToCartFromSearchbarWithnoData</p>
+							<p class="duration text-sm">0h 0m 0s+3ms</p>
+							<span class="datetime">16:24:28 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-skip">TC_18_ValidateAddToCartFromSearchbarWithnoData</h5>
+									<span class='badge badge-success'>10.16.2020 16:24:28</span>
+									<span class='badge badge-danger'>10.16.2020 16:24:28</span>
+									<span class='badge badge-default'>0h 0m 0s+3ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>4:24:28 PM</td>
+				<td>
+						Test Skipped
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="skip" test-id="19"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar skip-bg">
+						<i class="fa fa-long-arrow-right text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_19_ValidateAddToCartFromSearchbarWithValidData</p>
+							<p class="duration text-sm">0h 0m 0s+2ms</p>
+							<span class="datetime">16:24:28 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-skip">TC_19_ValidateAddToCartFromSearchbarWithValidData</h5>
+									<span class='badge badge-success'>10.16.2020 16:24:28</span>
+									<span class='badge badge-danger'>10.16.2020 16:24:28</span>
+									<span class='badge badge-default'>0h 0m 0s+2ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>4:24:28 PM</td>
+				<td>
+						Test Skipped
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="skip" test-id="20"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar skip-bg">
+						<i class="fa fa-long-arrow-right text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_21_Validate_the_user_is_able_to_add_one_item_to_the_cart_from_PPE_and_Mask_category_and_verify_cart_icon</p>
+							<p class="duration text-sm">0h 0m 0s+3ms</p>
+							<span class="datetime">16:24:28 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-skip">TC_21_Validate_the_user_is_able_to_add_one_item_to_the_cart_from_PPE_and_Mask_category_and_verify_cart_icon</h5>
+									<span class='badge badge-success'>10.16.2020 16:24:28</span>
+									<span class='badge badge-danger'>10.16.2020 16:24:28</span>
+									<span class='badge badge-default'>0h 0m 0s+3ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>4:24:28 PM</td>
+				<td>
+						Test Skipped
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="skip" test-id="21"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar skip-bg">
+						<i class="fa fa-long-arrow-right text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_22_validate_the_user_is_able_to_add_one_item_from_ppe_category_throught_product_page_and_verify_cart_icon</p>
+							<p class="duration text-sm">0h 0m 0s+2ms</p>
+							<span class="datetime">16:24:28 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-skip">TC_22_validate_the_user_is_able_to_add_one_item_from_ppe_category_throught_product_page_and_verify_cart_icon</h5>
+									<span class='badge badge-success'>10.16.2020 16:24:28</span>
+									<span class='badge badge-danger'>10.16.2020 16:24:28</span>
+									<span class='badge badge-default'>0h 0m 0s+2ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>4:24:28 PM</td>
+				<td>
+						Test Skipped
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="skip" test-id="22"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar skip-bg">
+						<i class="fa fa-long-arrow-right text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">TC_23_validate_clear_cart_hyperlink_in_the_shopping_cart_page</p>
+							<p class="duration text-sm">0h 0m 0s+2ms</p>
+							<span class="datetime">16:24:28 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-skip">TC_23_validate_clear_cart_hyperlink_in_the_shopping_cart_page</h5>
+									<span class='badge badge-success'>10.16.2020 16:24:28</span>
+									<span class='badge badge-danger'>10.16.2020 16:24:28</span>
+									<span class='badge badge-default'>0h 0m 0s+2ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>4:24:28 PM</td>
+				<td>
+						Test Skipped
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="test-content scrollable">
+		<div class="test-content-tools">
+			<ul>
+				<li>
+					<a class="back-to-test" href="javascript:void(0)">
+					<i class="fa fa-arrow-left"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="test-content-detail">
+			<div class="detail-body"></div>
+		</div>
+	</div>
+</div>                    <!-- dashboard -->
+<div class="container-fluid p-4 dashboard-view">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Tests</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='parent-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='27.273%'>
+						<b>6</b> tests passed
+						</small>
+					</div>
+					<div>
+						<small data-tooltip='4.545%'><b>1</b> tests failed, 
+						<b>15</b> skipped, <b data-tooltip='0%'>0</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Log events</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='events-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='84.158%'><b>85</b> events passed</small></div>
+					<div>
+						<small data-tooltip='0.99%'><b>1</b> events failed, 
+						<b data-tooltip='14.851%'>15</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Tests</h6>
+							<h2 class="font-size-28 font-weight-light mt-3">22</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+							<span>27.27%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Start</h6>
+							<h4 class="font-weight-light mt-4">Oct 16, 2020 04:20:51 PM</h4>
+							<span class="text-semibold text-success font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-success opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Duration</h6>
+							<h4 class="font-weight-light mt-4">0h 3m 37s+702ms</h4>
+							<span class="text-semibold font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Timeline</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id="timeline" height="120"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Environment</h6>
+				</div>
+				<div class="table-overflow">
+					<table class="table table-sm">
+						<thead>
+							<tr class="bg-gray">
+								<th>Name</th>
+								<th>Value</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Tester</td>
+								<td>Tester Name</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	var statusGroup = {
+	    parentCount: 22,
+		passParent: 6,
+		failParent: 1,
+		fatalParent: 0,
+		errorParent: 0,
+		warningParent: 0,
+		skipParent: 15,
+		exceptionsParent: 16,
+		childCount: 0,
+		passChild: 0,
+		failChild: 0,
+		fatalChild: 0,
+		errorChild: 0,
+		warningChild: 0,
+		skipChild: 0,
+		infoChild: 0,
+		debugChild: 0,
+		exceptionsChild: 0,
+		grandChildCount: 0,
+		passGrandChild: 0,
+		failGrandChild: 0,
+		fatalGrandChild: 0,
+		errorGrandChild: 0,
+		warningGrandChild: 0,
+		skipGrandChild: 0,
+		infoGrandChild: 0,
+		debugGrandChild: 0,
+		exceptionsGrandChild: 0,
+		eventsCount: 101,
+		passEvents: 85,
+		failEvents: 1,
+		fatalEvents: 0,
+		errorEvents: 0,
+		warningEvents: 0,
+		skipEvents: 15,
+		infoEvents: 0,
+		debugEvents: 0,
+		exceptionsEvents: 0
+	};
+</script>
+<script>
+	var timeline = {
+	        "TC_01_Validate_addtocart_by_clicking_on_buy_nowbutton_from_adv_banner_without_login":16.899,"TC_02_addtocartvalidate_shopallbtn_clickonimage":19.103,"TC_03_addtocartvalidate_clickonimage":17.4,"TC_04_validate_the_user_is_able_to_add_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart":27.787,"TC_05_Validate_update_cart_hyper_link_in_the_shopping_cart_page":32.323,"TC_06_Validate_the_case_quantity_text_box_with_valid_data_in_the_shopping_cart_page":21.426,"TC_07_Validate_the_case_quantity_text_box_with_zero_value_and_verify_the_shopping_cart_page":22.893,"TC_08_Validate_the_case_quantity_text_box_with_invalid_data_in_the_shopping_cart_page":0.002,"TC_09_Validate_the_case_quantity_text_box_with_boundary_value_in_the_shopping_cart_page":0.003,"TC_10_Validate_the_cart_when_the_user_signoff_and_signin_with_valid_credentials":0.005,"TC_11_validate_no_of_cases_textbox_with_valid_data":0.002,"TC_12_Validate_the_number_of_case_text_box_in_the_product_page":0.006,"TC_13_validate_no_of_cases_textbox_with_zero":0.012,"TC_14_validate_no_of_cases_textbox_with_character":0.003,"TC_15_ValidateAddToCart_BuyNow_smallercasepacks":0.002,"TC_16_ValidateAddToCart_BuyNow_3PlyFaceMask":0.003,"TC_17_ValidateAddToCart_BuyNow_PremiumAlcoholWipes":0.008,"TC_18_ValidateAddToCartFromSearchbarWithnoData":0.003,"TC_19_ValidateAddToCartFromSearchbarWithValidData":0.002,"TC_21_Validate_the_user_is_able_to_add_one_item_to_the_cart_from_PPE_and_Mask_category_and_verify_cart_icon":0.003,"TC_22_validate_the_user_is_able_to_add_one_item_from_ppe_category_throught_product_page_and_verify_cart_icon":0.002,"TC_23_validate_clear_cart_hyperlink_in_the_shopping_cart_page":0.002
+	};
+</script>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/spark/js/spark-script.js"></script>
+</body>
+</html>
