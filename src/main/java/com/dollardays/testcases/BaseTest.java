@@ -23,7 +23,7 @@ import com.dollardays.listners.ExtentTestManager;
 import com.dollardays.pages.LoginPage;
 import com.dollardays.pages.SearchPage;
 
-public class BaseTest extends MT {
+public class BaseTest {
 	public static Logger APPLICATION_LOGS = Logger.getLogger(BaseTest.class);
 	public WebDriver driver = null;
 	public Properties props = null;
